@@ -1,0 +1,30 @@
+1. Exploratory Data Analysis
+Objectif :
+Comprendre du mieux possible nos données (un petit pas en avant vaut mieux qu'un grand pas en arriere)
+Développer une premiere stratégie de modélisation
+Checklist de base
+Analyse de Forme :
+variable target : diagnosis
+lignes et colonnes : 569 lignes et 32 colonnes
+types de variables :quantitatives
+Analyse des valeurs manquantes : Aucune valeur manquante
+Analyse de Fond :
+Visualisation de la target : Classe déséquilibré B=357 (62%), M=212(38%)
+
+Signification des variables :
+
+variables continues (skewed souvent vers la gauche)
+Relation Variables / Target : 
+features les moins intéressantes de par la distribution: 9,11,14,18,19,28,29 
+feature les plus intéressantes: 23, 3, 22, 13, 2
+on remarque que M a en moyenne des valeurs plus élevés
+
+Analyse plus détaillée
+Relation Variables / Variables :
+certaines variables sont tres corrélées : +0.9 (a suveiller plus tard)
+
+hypotheses nulle (H0):
+Les tumeurs malignes ont des valeurs égales en moyenne aux tumeurs benigne pour features intéressantes - Hypothèse rejetée
+
+H0 = Les taux moyens sont ÉGAUX chez les individus positifs et négatifs
+Les individus atteints d'une quelconque maladie ont des taux significativement différents
