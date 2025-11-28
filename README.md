@@ -150,7 +150,7 @@ python train.py
 python predict.py
 ```
 
-### Customizing the Model
+### Customizing the Model 
 
 You can modify the model architecture by changing parameters in `train.py`:
 
